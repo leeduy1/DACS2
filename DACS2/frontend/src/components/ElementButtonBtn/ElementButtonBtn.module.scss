@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.btn {
+    font-family: 'roboto';
+    text-decoration: none;
+    padding: 6px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 0.357rem;
+    font-weight: 500;
+    border: 2px solid transparent;
+    margin-right: 10px;
+}
+
+.btn-add {
+    background: #9df99d !important;
+    color: #003c00 !important;
+}
+
+.btn-loadFile {
+    background: #e1ec86 !important;
+    color: #4b5400 !important;
+}
+.btn-printData {
+    background: #bfbeef!important;
+    color: #03009a!important;
+}
+.btn-copy {
+    background: #bfbeef!important;
+    color: #03009a!important;
+}
+.btn-exportExcel {
+    color: #008c04 !important;
+    background: #a2ecb5 !important;
+}
+.btn-exportPDF {
+    background: #efcaca !important;
+    color: #bf0000 !important;
+}
+.btn-deleteAll {
+    background: #d0d0d0;
+    color: #212529 !important;
+}
+
+.icon {
+    margin-right: 3px;
+}

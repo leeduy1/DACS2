@@ -1,0 +1,62 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataTables_length {
+    & label {
+        font-family: 'roboto';
+        font-weight: normal;
+        margin-top: 15px;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        color: #212529;
+        font-size: 14px;
+
+        & select {
+            width: 75px;
+            margin: 0 4px;
+            height: calc(1.6484375rem + 4px);
+            padding: 0.25rem 0.5rem;
+            font-size: 0.765625rem;
+            line-height: 1.5;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+            outline: none;
+            border: 1px solid #dadada;
+        }
+    }
+}
+
+.dataTables_filter {
+    & label {
+        font-family: 'roboto';
+        font-weight: 600;
+        white-space: nowrap;
+        text-align: left;
+        background: white;
+        color: black;
+        padding: 10px;
+        border-radius: 0.357rem;
+        border: 1px solid #ddd;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        font-size: 14px;
+
+        & input {
+            height: 30px;
+            font-weight: 600;
+            margin-left: 0.5em;
+            display: inline-block;
+            width: auto;
+            padding: 0.25rem 0.5rem;
+            font-size: 0.765625rem;
+            line-height: 1.5;
+            border-radius: 4px;
+            color: black;
+            background-color: #f1f1f1;
+            border: 1px solid #dadada;
+            outline: none;
+        }
+    }
+}

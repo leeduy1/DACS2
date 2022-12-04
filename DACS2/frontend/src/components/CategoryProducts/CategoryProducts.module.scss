@@ -1,0 +1,69 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 20px;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 16px;
+        left: 0;
+        background: #e5e5e5;
+        width: 100%;
+        height: 1px;
+        z-index: -1;
+    }
+}
+
+.title {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 700;
+    color: #494949;
+    // padding-bottom: 15px;
+    display: inline-block;
+    padding-right: 15px;
+    background: #fff;
+}
+
+.sort {
+    & .ul-col {
+        position: relative;
+        margin-top: -5px;
+
+        &:hover .content-ul {
+            display: block;
+        }
+    }
+
+    & .sort-main {
+        border-top: 1px solid #e5e5e5;
+        background-image: url(//bizweb.dktcdn.net/100/448/970/themes/880534/assets/ico-select-2.png?1665019380902) !important;
+        background-repeat: no-repeat;
+        z-index: 1;
+        background-color: white;
+    }
+
+    & li {
+        background-position: right 10px center;
+        padding-right: 28px;
+        text-indent: 0.01px;
+        cursor: pointer;
+        line-height: 42px;
+        border-radius: 0px;
+        border-bottom: 1px solid #e5e5e5;
+        border-left: 1px solid #e5e5e5;
+        border-right: 1px solid #e5e5e5;
+        width: 227px;
+        padding: 0 20px;
+        list-style: none;
+    }
+
+    .content-ul {
+        position: absolute;
+        z-index: 9999;
+        background-color: white;
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 28, 64);
+    z-index: 1;
+    padding-right: 30px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.log-out {
+    display: block;
+    padding: 15px;
+    line-height: 0px;
+    color: rgb(0, 28, 64);
+    background: rgb(255, 212, 59);
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        color: #f6f6f6;
+        cursor: pointer;
+    }
+}
+
+.log-out__icon {
+    font-size: 20px;
+}

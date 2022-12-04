@@ -1,0 +1,23 @@
+.wrapper {
+    width: 1090px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.navbar {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.content {
+    flex: 3;
+    padding: 0 15px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

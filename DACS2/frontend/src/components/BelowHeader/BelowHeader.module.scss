@@ -1,0 +1,50 @@
+.wrapper {
+  background-image: url(https://bizweb.dktcdn.net/100/448/970/themes/855670/assets/bg_breadcrumb.jpg?1648021970162);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 202px;
+  flex-flow: column;
+  display: flex;
+  padding-top: 35px ;
+}
+
+.title-page {
+  & a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+    &:hover {
+        color: #339538;
+    }
+  }
+
+  & svg {
+    width: 14px;
+    height: 14px;
+    fill: white;
+    margin: 0 12px;
+  }
+
+  & span {
+    color: #339538;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 48px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-top: 2px ;
+}
+
+
